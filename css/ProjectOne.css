@@ -1,0 +1,255 @@
+@charset "utf-8"
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.logo-img{
+	width: 76px;
+	height: 30px;
+}
+.link-logo{
+	display: flex;
+	align-items: center;
+}
+.nav-top-ul{
+	margin-top: 0;
+}
+#myCarousel{
+	margin-top: 50px;
+}
+
+.media-object{
+	width: 120px;
+	height: 120px;
+}
+.tab-h2{
+	font-size: 20px;
+	color: #0059b2;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.tab-p{
+	font-size: 15px;
+	color: #999;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 20px 0 40px 0;
+}
+.tab1{
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .text-muted{
+	color: #999;
+	text-decoration: line-through;
+}
+.tab1 .media-headding{
+	margin: 5px 0 20px;
+}
+.tab1 .col{
+	padding: 20px;
+}
+.tab2{
+	background-color: #eee;
+	padding: 40px 20px;
+	text-align: center;
+}
+.tab3{
+	padding: 40px 20px;
+	text-align: center;
+	
+}
+.text h3{
+	font-size: 20px;
+}
+.text p{
+	font-size: 14px;
+}
+
+#footer{
+	padding:20px;
+	text-align: center;
+	background-color: #666;
+	color: #eee;
+	border-top: 1px solid #ccc;
+}
+/*小屏幕（平板 大于768px）*/
+@media (max-width: 500px){
+	.hidden-con{
+		display: none;
+	}
+}
+@media (min-width: 768px){
+	.tab-h2{
+		font-size: 26px;
+		}
+	.tab-p{
+		font-size: 16px;
+		}
+	.tab2 img, .tab3 img{
+		width: 45%;
+		height: 45%;
+	}
+	.text h3{
+		font-size: 22px;
+	}
+	.text p{
+		font-size: 15px;
+	}
+	.tab2-text{
+		/*float: left;*/
+		/*background-color: red;*/
+	}
+	.text-img{
+		/*float: right;*/
+	}
+	.container h1{
+		font-size: 26px;
+	}
+	.container h4{
+		font-size: 12px;
+	}
+
+
+}
+
+/*中等屏幕 （桌面显示，大于992px）*/
+@media (min-width: 992px){
+	.tab-h2{
+	font-size: 28px;
+	}
+	.tab-p{
+		font-size: 17px;
+	}
+	.tab2 img,.tab3 img{
+	width: 55%;
+	height: 55%;
+	}
+	.text h3{
+	font-size: 24px;
+	}
+	.text p{
+		font-size: 16px;
+	}
+	.container h1{
+		font-size: 30px;
+	}
+	.container h4{
+		font-size: 16px;
+	}
+}
+
+/*大屏幕 （桌面显示，大于1200px）*/
+@media (min-width: 1200px){
+	.tab-h2{
+	font-size: 30px;
+	}
+	.tab-p{
+		font-size: 18px;
+	}
+	.tab2 img,.tab3 img{
+	width: 65%;
+	height: 65%;
+	}
+	.text h3{
+		font-size: 26px;
+	}
+	.text p{
+		font-size: 18px;
+	}
+	.container h1{
+		font-size: 36px;
+	}
+	.container h4{
+		font-size: 18px;
+	}
+}
+
+/*infromation页面*/
+.jumbotron{
+	background: url('../img/mountains1.png');
+	margin-top: 50px;
+	background-position:100% 100%;
+}
+.container h1{
+	color: #fff;
+}
+.container h4{
+	color: #fff;
+}
+#information{
+	background-color: #eee;
+}
+.info-content{
+	background-color: #fff;
+	margin: 20px 0 0 0;
+    padding: 15px;
+    box-shadow: 2px 2px 2px #ccc;
+
+}
+.info-content img{
+	width: 150px;
+
+}
+.info-content h3{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.info-right{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote{
+	margin: 0;
+	padding: 0;
+}
+.info-right h3{
+	font-size: 20px;
+	color: #333;
+	padding: 0;
+	margin: 0;
+}
+.right-top{
+	margin:10px 0;
+}
+
+#case{
+	padding: 40px 0;
+	background-color: #eee;
+	text-align: center;
+}
+#case h4{
+	color: #666;
+}
+#case p{
+	color: #666;
+	line-height: 1.6;
+}
+.thumbnail img{
+	width: 121px;
+	height: 121px;
+}
+#about{
+	padding: 40px 15px;
+	background-color: #eee;
+}
+#about a{
+	color: #0059b2;
+}
+#about .about{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+#about h3{
+	color: #333;
+	font-size: 22px;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	margin: 0 0 10px 0;
+}
+#about p{
+	color: #333;
+	line-height: 2;
+}
